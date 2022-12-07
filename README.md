@@ -1,2 +1,2 @@
 # ZX_to_DAG_QAMP_fall_2022
-Building a ZX-calculus transpiler pass for Qiskit Terra. This repository contains the codes for the pass as well as unittesting.
+Building a ZX-calculus transpiler pass for Qiskit Terra. This repository contains the codes for the pass as well as unittesting. The main codes are in the folder ZX_to_DAG. While testing, we found that the unitary matrices for the original circuit and the optimized circuit from pyZX are not the same for some cases. We raised this on the ZX-calculus discord server, followed by raising an issue on the pyZX repository (https://github.com/Quantomatic/pyzx/issues/102). We will be trying to resolve that issue in pyZX and further working on this transpiler pass.
